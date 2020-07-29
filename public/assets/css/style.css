@@ -1,0 +1,32 @@
+h1, h3 {
+  color: orangered;
+}
+
+h2 {
+  color: orange;
+}
+
+body {
+  background-image: url("/assets/images/burger-background.jpg");
+  background-repeat: repeat;
+}
+
+.burger-img {
+  padding: 20px;
+}
+
+.container {
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  background-color: white;
+}
+
+.burger-table {
+  padding: 30px;
+}
+
+.add-burger {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  padding: 30px;
+}
