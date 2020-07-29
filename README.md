@@ -15,9 +15,10 @@ A burger logger created with with MySQL, Node, Express, Handlebars and a homemad
 
 ## Deployment
 
+Demo: https://rosa-burger.herokuapp.com/
+
 ![eat-da-burger.PNG](./public/assets/images/burger.PNG)
 
-Demo: https://www.youtube.com/watch?v=msvdn95x9OM&feature=youtu.be
 
 ## Built With
 
