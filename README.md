@@ -20,9 +20,6 @@ A burger logger created with with MySQL, Node, Express, Handlebars and a homemad
 Demo: https://rosa-burgerv2.herokuapp.com/
 
 
-![mobile.PNG](./public/assets/images/tasty-mobile.png)
-
-
 ![demo.PNG](./public/assets/images/tasty-demo.png)
 
 
