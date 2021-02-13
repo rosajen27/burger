@@ -16,26 +16,27 @@ html {
 
 h1 {
   font-size: 38px;
+  font-family: "Poppins", sans-serif;
 }
 
 h2 {
   font-size: 30px;
+  font-family: "Poppins", sans-serif;
 }
 
 h3 {
   font-size: 26px;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
 }
 
 h4 {
   font-size: 22px;
+  font-family: "Poppins", sans-serif;
 }
 
 p {
   font-size: 18px;
-}
-/* Nav */
-nav {
-  padding: 32px;
 }
 
 /* Hero */
@@ -64,10 +65,6 @@ nav {
   font-size: 5rem;
 }
 
-.hero-text h2 {
-  font-weight: 400;
-}
-
 path {
   fill: #fff;
 }
@@ -88,14 +85,9 @@ path {
 }
 
 #intro h3,
-#menu h3 {
-  font-size: 3rem;
-  font-weight: 500;
-}
-
+#menu h3,
 #order h3 {
   font-size: 3rem;
-  font-weight: 500;
 }
 
 #intro p,
@@ -130,10 +122,6 @@ path {
 
 .card:hover {
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
-}
-
-.card-container {
-  padding: 16px;
 }
 
 li {
@@ -229,6 +217,14 @@ input {
 @media screen and (max-width: 600px) {
   .hero-image {
     background-attachment: scroll;
+  }
+
+  .hero-image {
+    padding: 32px 0;
+  }
+
+  li {
+    width: 100%;
   }
 }
 
