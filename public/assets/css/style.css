@@ -5,12 +5,13 @@
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   color: #1f1f1f;
 }
 
-body, html {
-  height:100%;
+body,
+html {
+  height: 100%;
 }
 
 h1 {
@@ -106,7 +107,7 @@ path {
   margin-top: 32px;
   width: 200px;
   border-radius: 100px;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
 #intro path,
@@ -121,14 +122,14 @@ path {
 
 /* Menu */
 .card {
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
   width: 90%;
   margin: 16px auto;
 }
 
 .card:hover {
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
 
 .card-container {
@@ -144,9 +145,9 @@ li {
 
 /* Forms */
 button {
-  background-color: #fff; 
-  color: #4CAF50;
-  border: 2px solid #4CAF50;
+  background-color: #fff;
+  color: #4caf50;
+  border: 2px solid #4caf50;
   border-radius: 8px;
   padding: 8px 16px;
   text-align: center;
@@ -159,9 +160,9 @@ button {
 }
 
 .btn-info-social {
-  background-color: #4CAF50; 
+  background-color: #4caf50;
   color: #fff;
-  border: 2px solid #4CAF50;
+  border: 2px solid #4caf50;
   padding: 5px 10px 0px;
   text-decoration: none;
   display: inline-block;
@@ -177,19 +178,19 @@ button {
 }
 .btn-info:hover {
   color: #fff;
-  border: 2px solid #4CAF50;
-  background-color: #4CAF50;
+  border: 2px solid #4caf50;
+  background-color: #4caf50;
 }
 
 .btn-info-social:hover path {
-  fill: #4CAF50;
+  fill: #4caf50;
 }
 .btn-info-social:hover {
   background-color: #fff;
 }
 
 input {
-  padding:8px;
+  padding: 8px;
 }
 
 #footer {
@@ -223,6 +224,12 @@ input {
 /* For mobile phones: */
 [class*="col-"] {
   width: 100%;
+}
+
+@media screen and (max-width: 600px) {
+  .hero-image {
+    background-attachment: scroll;
+  }
 }
 
 @media only screen and (min-width: 600px) {
@@ -263,6 +270,12 @@ input {
   .col-s-12 {
     width: 100%;
   }
+  .hero-image {
+    background-attachment: scroll;
+  }
+  .intro-img {
+    width: 150px;
+  }
 }
 
 @media only screen and (min-width: 768px) {
@@ -302,5 +315,8 @@ input {
   }
   .col-12 {
     width: 100%;
+  }
+  .hero-image {
+    background-attachment: fixed;
   }
 }
