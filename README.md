@@ -2,12 +2,15 @@
 
 A burger logger created with with MySQL, Node, Express, Handlebars and a homemade ORM. Utilized the MVC design pattern; Node and MySQL to query and route data, and Handlebars to generate HTML.
 
+* A restaurant app that lets users input the names of burgers they'd like to eat.
+* Whenever a user submits a burger's name, the app will display the burger on the left side of the page -- waiting to be devoured.
+* Each burger in the waiting area also has a Devour it! button. When the user clicks it, the burger will move to the right side of the page.
+* This app will store every burger in a database, whether devoured or not.
+
 
 ## Table of Contents
 * [Deployment](#deployment)
 * [Built With](#built-with)
-* [Installation](#installation)
-* [Usage](#usage)
 * [Authors](#authors)
 * [License](#license)
 * [Acknowledgements](#acknowledgement)
@@ -42,13 +45,6 @@ Demo: https://rosa-burger.herokuapp.com/
 * MySQL
 * Handlebars
 
-## Usage
-
-* Eat-Da-Burger! is a restaurant app that lets users input the names of burgers they'd like to eat.
-* Whenever a user submits a burger's name, the app will display the burger on the left side of the page -- waiting to be devoured.
-* Each burger in the waiting area also has a Devour it! button. When the user clicks it, the burger will move to the right side of the page.
-* This app will store every burger in a database, whether devoured or not.
-
 
 ## Authors
 
@@ -62,7 +58,7 @@ Demo: https://rosa-burger.herokuapp.com/
 
 This project is licensed under the MIT License.
 
-Copyright (c) 2020 Jennifer Rosa
+Copyright (c) 2021 Jennifer Rosa
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
