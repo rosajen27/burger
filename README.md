@@ -1,6 +1,6 @@
-# Eat-Da-Burger
+# 🍔 The Tasty Burger 
 
-A burger logger created with with MySQL, Node, Express, Handlebars and a homemade ORM (yum!). Utilized the MVC design pattern; Node and MySQL to query and route data, and Handlebars to generate HTML.
+A burger logger created with with MySQL, Node, Express, Handlebars and a homemade ORM. Utilized the MVC design pattern; Node and MySQL to query and route data, and Handlebars to generate HTML.
 
 
 ## Table of Contents
@@ -15,31 +15,33 @@ A burger logger created with with MySQL, Node, Express, Handlebars and a homemad
 
 ## Deployment
 
-Demo: https://rosa-burger.herokuapp.com/
+### Version 2
 
+Demo: https://rosa-burgerv2.herokuapp.com/
+![mobile.PNG](./public/assets/images/tasty-mobile.png)
+![demo.PNG](./public/assets/images/tasty-demo.png)
+
+
+### Version 1
+
+Demo: https://rosa-burger.herokuapp.com/
 ![eat-da-burger.PNG](./public/assets/images/burger.PNG)
 
 
 ## Built With
 
+* HTML
+* CSS
+* JavaScript
 * Node.js
 * Express
 * MySQL
 * Handlebars
-* ORM
-* HTML
-
-## Installation 
-* `npm init`
-* `npm install express`
-* `npm install express-handlebars`
-* `npm install mysql`
-* `node server.js`
 
 ## Usage
 
 * Eat-Da-Burger! is a restaurant app that lets users input the names of burgers they'd like to eat.
-* Whenever a user submits a burger's name, your app will display the burger on the left side of the page -- waiting to be devoured.
+* Whenever a user submits a burger's name, the app will display the burger on the left side of the page -- waiting to be devoured.
 * Each burger in the waiting area also has a Devour it! button. When the user clicks it, the burger will move to the right side of the page.
 * This app will store every burger in a database, whether devoured or not.
 
