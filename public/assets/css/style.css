@@ -217,10 +217,7 @@ input {
 @media screen and (max-width: 600px) {
   .hero-image {
     background-attachment: scroll;
-  }
-
-  .hero-image {
-    padding: 32px 0;
+    height: 110%;
   }
 
   li {
