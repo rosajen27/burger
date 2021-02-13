@@ -18,13 +18,20 @@ A burger logger created with with MySQL, Node, Express, Handlebars and a homemad
 ### Version 2
 
 Demo: https://rosa-burgerv2.herokuapp.com/
+
+
 ![mobile.PNG](./public/assets/images/tasty-mobile.png)
+
+
 ![demo.PNG](./public/assets/images/tasty-demo.png)
+
 
 
 ### Version 1
 
 Demo: https://rosa-burger.herokuapp.com/
+
+
 ![eat-da-burger.PNG](./public/assets/images/burger.PNG)
 
 
